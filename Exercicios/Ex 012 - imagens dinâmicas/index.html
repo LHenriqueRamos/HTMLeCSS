@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Simpleicons-Team-Simple-Icon.512.png" type="image/x-icon">
+    <title>imagem</title>
+</head>
+<body>
+
+    <h1> Imagens dinâmica </h1>
+    <hr>
+    <p>Neste exercício iremos aprender a criar imagens que são capazes de se adaptar a formatos de telas diferentes. Tente abrir este site em vários dispositivos diferentes.</p>
+
+    <picture> 
+         <source media="(max-width: 700px)" srcset="Imagens/001.png"
+         type="image/png">
+          <source media="(max-width: 1050px)" srcset="Imagens/2.png"
+          type="image/png">
+         <img src="Imagens/3.png" alt="imagem flexivel">
+    </picture>
+
+    <p>O source funciona da maior pra menor, no código você vai ir pondo a imagem menor sempre acima. </p>
+
+
+ <p>Aqui utilizamos a tag "picture" para adicionar a imagem á página, colocamos a imagem grande mas há uma limitação, se o usuário utilizar uma tela pequena ele nãop conseguirá ver a imagem toda, para contornar esse problema utilizamos </p>
+    <pre> source media="(max-width: 1050px)" srcset= "imagem/foto-m.png" type="image/png" 
+    </pre>
+
+    <h1>Tipos de mídias <h1>
+
+    <h2>Áudios</h2>
+    <P>A seguir veremos como adicionar mídias em nossa página.</P>
+    <p>Bem, a maneira mais simples de por um aúdio é usando a tag <mark>"audio src="", pondo o audio escolhido dentro das aspas e inserindo em seguinda o comando "controls autoplay", o controls seria para mostrar o controlador de audio, o autoplay é para que o audio fique dispónível para reprodução.</mark>.</p>
+    
+    <audio src="audioteste.mp3" controls autoplay></audio>
+
+    <p>É bom se atentar aos tipos de navegadores compatíveis com mp3, ou existem outros formatos de arquivo como o <mark>WAV e OGG</mark>, é sempre bom ter o mesmo áudio nos 3 formatos, para o caso de alguma tag ser invalidada como aconteceu com o autoplay acima. Mas existe outra forma de adicionar um áudio a sua página.</p>
+
+    <audio>
+  <source src="audioteste.mp3" type="audio.mpeg">
+    </audio>
+
+    <p>Clique <a href="audioteste.mp3">aqui</a> para fazer dowload do arquivo mp3</p>
+
+    <p>A outra maneira seria abrindo a tag audio e tirando o src dela, entre o audio e o /audio você vai digitar "source src" e vai abrir o comando com o "type=""" aí você escolhe o arquivo pro src e especifica no type com base no tipo de aúdio (Ce tem que estudar isso). </p>
+
+    <img src="midia/audioteste.png" alt="exemplificação visual do comando explicado acima.">
+    <p>Oque você pode e deve fazer nestes casos é por os demais formatos, por que caso um nãop seja reproduzido o navegador tentará o outro, se por ventura nenhum tocar então é foda, e vai ficar por isso mesmo. </p>
+    <img src="midia/audioteste2.png" alt="exemplificação visual do comando explicado acima.">
+
+    <h2>Tags adicionais</h2>
+    <dl>
+        <dt>
+            loop
+            <dd>Vai ativar um loop no aúdio.</dd>
+        </dt>
+        <br>
+        <dt>
+            autoplay
+            <dd>Habilitar o play automatico no áudio.</dd>
+        </dt>
+    </dl>
+
+    <h2>Vídeos</h2>
+
+    <h3>Tipos de compatibilidade para vídeo</h3>
+    <p>Para quem desenvolve o ideal é ter sempre mais de um formato de vídeo, como estes abaixo.</p>
+    <ol><li>mp4</li>
+        <li>webm</li>
+        <li>oggv</li>
+    </ol>
+    <p>Neste momento seria utilizado o HandBreack para fazer a conversão de um arquivo para o outro, porém o mesmo não está baixando.</p>
+    
+</body>
+</html>

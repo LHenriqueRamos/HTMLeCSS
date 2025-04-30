@@ -1,0 +1,37 @@
+@charset "UTF-8"; 
+
+body{
+    background-color: linear-radiant(#87255B, #B370B0, #BBA0CA, #D1C8E1, #C3C3E6);
+   width: 100%;
+   background-attachment: fixed;
+   align-items: center;
+}
+
+
+
+main{
+  
+    font-family: "montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+    text-justify: auto;
+
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    width: 750px;
+    
+
+    background-color: #BBA0CA;
+
+}
+
+h1{
+text-align: center;
+}
+
+h2{
+    font-size: 17px;
+}
+

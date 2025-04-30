@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listas ol e ul </title>
+</head>
+<body>
+    <h1>Listas Ordenadas e não ordenadas - Ex 010b</h1>
+   <hr>
+   <p>Neste exercício veremos a respeito das listas ordenadas, não ordenadas e de definição. </p>
+   <h2>Listas ordenadas</h2>
+   <p>No exemplo abaixo estamos vendo uma lista manual e sem tag ou código de comando algum, suponhamos que na verdade você leitor cabeça de pika, por algum motivo que só Deus sabe, prefere estudar logo depois que acorda, sem nem escovar os dentes nem nada, já mete a cara no caderno com esse teu bafo de merda mesmo. </p>
+
+   1 - acordar 
+   2- estudar 
+   2 - escovar os dentes 
+   3 - comer algo
+   4 - estudar 
+
+   <p>A primeira coisa a se notar é que, o navegador não consegue reconhecer isso como uma lista, por isso é um recurso <mark>visual</mark> que você usou e não está no código, não tem significado algum e portanto está todo errado ná pagina, na mesma linha. O segundo problema é que, ao por a terefa ali acima temos duas tarefas com números iguais, você pode até me dizer que isso é besteira e que dá pra só corrigir da meneira correta mas quero ver você fazer isso com uma lista de 300 itens. </p>
+
+   <p>Neste caso usamos a tag "ol" (listas ordenadas), para abrir uma lista e usamos a tag "li" para os itens. 
+    <ol>
+       <li>acordar</li>
+       <li>estudar</li>
+       <li>escovar os dentes</li>
+       <li>comer algo</li>
+       <li>estudar</li>
+    </ol>
+   </p>
+   <p>Utilizando o comando "type" você pode alterar o formato da lista e com o comando "start onde ela começa."</p>
+   <ol type="A">
+    <li>acordar</li>
+    <li>estudar</li>
+    <li>escovar os dentes</li>
+    <li>comer algo</li>
+    <li>estudar</li>
+ </ol>
+ <p> Aqui estamos usando a lista com a tag "ol" ativa e com inicio a partir do número 3.</p>
+ <ol start="3">
+    <li>acordar</li>
+    <li>estudar</li>
+    <li>escovar os dentes</li>
+    <li>comer algo</li>
+    <li>estudar</li>
+ </ol>
+
+ <p> Não é obriogatório por o "li" abrir a "ol" e por os itens é valido também.</p>
+
+ <h2>Listas não ordenadas</h2>
+
+ <p> Nas listas não ordenadas temos esse formatato diferente,not que ela não tem números nem letras, ela tem pontos. Podemos alter também o formato desses indicadores em "type" e selecionando as opções. </p>
+
+<ul>
+
+  <li>acordar</li> 
+  <li>escovar os dentes</li> 
+  <li>comer</li> 
+  <li>estudar</li> 
+  <li>arrumar a casa </li>
+
+</ul>
+
+<p> com o "type" habilitado.</p>
+
+<ul type= "circle">
+
+    <li>acordar</li> 
+    <li>escovar os dentes</li> 
+    <li>comer</li> 
+    <li>estudar</li> 
+    <li>arrumar a casa </li>
+  
+</ul>
+
+<h2>Listas de definição</h2>
+
+<p>Listas de definição são o modelo que você utiliza quando quer fazer uma lista dentro de outra lista. para fazer isso insira a tag "ol" abaixo do nome da lista. </p>
+
+<h2>Minhas músicas favoritas</h2>
+<ol>
+  <li>Antigas</li>
+       <ol type="a"> 
+
+         <li>Como tudo deve ser Charlie Brown Jr</li>
+         <li>Cafuné (esqueci o nome)</li>
+         <li>Céu azul</li>
+         <li>Pontes indestrutiveis</li>
+         <li>tanto faz</li>
+
+        </ol>
+<li>Novas</li>
+         <ol type="a">
+         <li>Caju</li>
+         <li>Se eu usasse sapato</li>
+         <li>espetaculo estranho</li>
+         <li>Nas ruas</li>
+         <li>Distante de mais</li>
+         </ol>
+
+</ol>
+
+<p> <strong> * Lembre-se que, podemos sempre ir abrindo listas dentro de listas.</strong> </p>
+
+<h2>Lista de definição</h2>
+
+<p> É uma lista para termo e descrição do item. Como um dicionário por exemplo. </p>
+
+<dl>
+   <dt>feliz</dt>
+      <dd>estar contente, de bem com a vida.</dd>
+   <dt>triste</dt>
+       <dd>Não estar contente, de mal com a vida.</dd>
+
+</dl>
+  <p>"dl" é a tag para criação de lista, "dt" é o termo e "dd" a descrição.</p>
+</body>
+</html>
