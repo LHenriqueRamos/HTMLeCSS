@@ -9,25 +9,26 @@ h1{
 
 header{
     background-color: #ffccc5;
+    width : 100%;
+    height: 200px;
 }
 
 nav{
     text-align: left;
     align-items: center;
-
-    padding: 10px;
-
-
+    
 }
 
 a{
     justify-content: space-around;
     margin-left: 5px;
-
+    text-decoration: none;
 }
 
 ul{
     display: flex;
+    list-style-type: none;
+
 }
 
 .slider{
