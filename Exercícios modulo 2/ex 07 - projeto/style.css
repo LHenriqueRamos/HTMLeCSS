@@ -27,8 +27,11 @@ header{
 }
 
 nav{
-    text-align: center;
+    justify-content: center;
     margin: auto;
+    gap: 20px;
+    padding: 0%;
+    margin: 0%;
 }
 
 a:hover{
