@@ -1,0 +1,21 @@
+
+div.quadrado{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    width: 300px; 
+    height: 300px;
+
+    div#bolo1 {
+        background-color: aquamarine;
+    }
+
+    div#bolo2 {
+        background-image:linear-gradient(to top, red, yellow);
+    }
+
+    div#bolo3 {
+        background-image: url('imagens/pattern004.png');
+    }
+}
