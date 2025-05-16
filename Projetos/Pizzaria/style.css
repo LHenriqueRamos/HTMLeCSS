@@ -1,0 +1,32 @@
+header{
+    background-color:#F9A03F;
+    height: 100px;
+    width: 100%; 
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+h1{
+    text-align: right;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+div.fundo{
+    height: 325px;
+    width: 100vh;
+}
+
+div.fundo{
+    background-image: url(img8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+}
