@@ -27,9 +27,21 @@ div.fundo{
 
 div.fundo{
     border: 1px solid black;
-    width: 900px;
-    height: 900px;
-    background-image: url(img7.png);
+    width: 1700px;
+    height: 500px;
+    background-image: url(img7-definitiva.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
+    border: 10px;
+}
+
+div.produto{
+    border: 1px solid black;
+    height: 250px;
+    width: 19Z0px;
+    display: inline-block; 
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
 }
