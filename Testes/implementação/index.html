@@ -6,30 +6,36 @@
     <title>Nav dinâmico</title>
 </head>
 <style>
-    header{
-        background-color: aquamarine;
-        width: 100%vh;
-        height: 25%;
-        justify-content: space-between;
-        align-items: center;
-        color: #000;
-        padding: 20px 40px;
-    }
+        nav{
+            position: fixed;
+            top: 0;
 
-    body{
-        margin: 0;
-    }
 
-    .nav{
-       position: sticky; 
-       top: 0;
-    }
+            width: 100%;
+            height: 100px;
+            background-color: crimson;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0, 16px;
+            margin-bottom: 0px;
+            color: azure;
+        }
+
+        body{
+            margin: 0px;
+        }
 
 </style>
 <body>
     <header>
         <nav>
             <h1>Tesde de implementação</h1>
+            <ul>
+                <li>Home</li>
+                <li>Contate-nos</li>
+            </ul>
+            
         </nav>
     </header>
     <main>
