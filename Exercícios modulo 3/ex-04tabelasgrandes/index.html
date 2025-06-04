@@ -14,10 +14,20 @@
 
     table{
         border-collapse: collapse;
+        position: relative;
+    }
+
+    thead > tr > th{
+        position: sticky;
+        top: 0;
     }
 
     th{
         background-color: antiquewhite;
+    }
+
+    tbody > tr:nth-child(2n+2){
+        background-color: rgb(190, 190, 190);
     }
 
     .num{
